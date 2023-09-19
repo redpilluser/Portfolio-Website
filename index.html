@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giovanni M. Portfolio Website</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,400&family=Roboto+Slab:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1 id="name" alt="name">Giovanni Maradiaga Gun</h1>
+        <nav class="nav" note="presentation">
+            <ul id="information">
+                <li><a href="#aboutme">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#certifications">Certifications</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+   <div  class="container" id="aboutme">
+        <div class="item info-item">
+            <h2>About Me</h2>
+            <p>Self-taught software developer with a strong background in finance and business.
+            Skilled in interpersonal communication, leveraging 10+ years of experience in business-focused
+            telecommunications and distribution industries. Adept at effectively conveying ideas and 
+            collaborating with diverse customers. Demonstrated track record of assessing systems to identify
+            weaknesses and implementing effective solutions. Exceptional written and verbal communication skills,
+            enabling clear and concise expression of complex concepts.</p>
+        </div>
+
+        <div class="item photo-item">
+            <div class="photo">
+                <img src="/Images/profilepic.png" height="200px" width="200px" id="profileImage" onclick="toggleImageStyle()"> 
+            </div>
+        </div>
+    </div> 
+
+    <div class="project container" id="projects">
+        <div class="item projectTitle-item">
+            <div class="project-title">
+                <h2>Projects</h2>
+            </div>
+        </div>
+        <div class="item project-info">
+            <div class="item project1-item">
+                <h3>Message Generator</h3>
+                <p>A message generator project was developed using HTML, CSS, and JavaScript. 
+                This project delivered daily random messages to users, offering motivation, wisdom, or humor. 
+                Users visited the webpage and clicked a button to receive a unique message for the day. 
+                The sleek and responsive design enhanced the user experience, while JavaScript powered the dynamic content rotation. 
+                Users could start their day with a smile or a boost of positivity, making it a delightful daily ritual. 
+                This web application provided a world of daily inspiration to its users.</p>
+            </div>
+            <div class="item project2-item">
+                <h3>Calculator</h3>
+                <p>I crafted an impressive project titled "Calculator" to showcase my proficiency in web development on my portfolio website.
+                Using HTML for structuring, CSS for styling, and JavaScript for functionality, I meticulously built a sleek and intuitive
+                calculator tool. With a clean user interface, it offers basic arithmetic operations and a responsive design that adapts
+                seamlessly to various screen sizes. This project demonstrates my ability to create interactive web applications,
+                enhancing my portfolio and underscoring my competence as a developer capable of delivering practical and 
+                user-friendly solutions.</p>
+            </div>
+            <div class="item project3-item">
+                <h3>Portfolio Website</h3>
+                <p>I designed a dynamic website using HTML, CSS, and JavaScript, serving as a showcase of my extensive knowledge in web development. 
+                It features a professional contact page that demonstrates my expertise in creating interactive forms and user-friendly interfaces. 
+                This platform not only highlights my skills but also showcases my previous projects, positioning me as a competent software developer
+                ready for new challenges. It's a testament to my capabilities and serves as a powerful tool for potential employers to assess my
+                qualifications and expertise.</p>
+            </div>
+        </div>
+        <div class="item button-container">
+            <div class="button">
+                <button><a href="contact.html"><strong>Contact Giovanni</strong></button></a>
+            </div>
+        </div>
+    </div>
+
+    <div class="skill container" id="skills">
+        <div class="item skillsTitle-item">
+            <h2>Skills</h2>
+        </div>
+        <div class="item skill-row">
+            <div class="item skill1-item">
+                <img src="./Images/HTMLlogo.png" alt="HTML logo" height="100px">
+            </div>
+            <div class="item skill2-item">
+                <img src="./Images/CSSlogo.png" alt="CSS logo" height="100px">
+            </div>
+            <div class="item skill3-item">
+                <img src="./Images/JavaScriptlogo.png" alt="JavaScript logo" height="100px">
+            </div>
+            <div class="item skill4-item">
+                <h2></h2>
+                <img src="./Images/python.png" alt="Python logo" height="80px">
+            </div>
+        </div>
+    </div>
+
+    <div class="certifications-container" id="certifications">
+        <div class="item certification-header">
+            <h2>Certifications</h2>
+        </div>
+        <div class="item certification1-item">
+            <h3>CSS</h3>
+            <img src="./Images/CSSCertificate.png" alt="CSS Certificate" height="500px" width="800px">
+        </div>
+        <div class="item certification2-item">
+            <h3>JavaScript</h3>
+            <img src="./Images/JavaScriptCertificate.png" alt="JavaScript Certificate" heigth="500px" width="800px">
+        </div>
+        <div class="item certification3-item">
+            <h3>Python</h3>
+            <img src="./Images/PythonCertificate.png" alt="Python Certificate" height="500px" width="800px">
+        </div>
+        <div class="item certification4-item">
+            <h3>More to come!</h3>
+        </div>
+    </div>
+
+    <footer id="contact">
+        <div class="footer container">
+            <div class="item footer-title">
+                <h2 class="name">Giovanni Maradiaga Gun</h2>
+            </div>
+            <div class="item email">
+                <img src="./Images/emaillogo.png" height="50px" alt="Email logo">
+                <h4>giogamg0486@gmail.com</h4>
+            </div>
+        </div>
+        <script src="./script.js"></script>
+    </footer>
+</body>
+</html>
